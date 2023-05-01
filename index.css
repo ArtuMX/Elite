@@ -1,0 +1,108 @@
+body{
+    background-image: url(img/backgound.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    margin: 0px;
+    overflow: hidden;
+}
+html, body {
+    height: 100%;
+  }
+@font-face {
+    font-family: "Actor";
+    src: url(fonts/Actor-Regular.ttf);
+}
+@font-face {
+    font-family: "Okolaks";
+    src: url(fonts/okolaks.regular.ttf);
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+#navbar{
+    width: 100%;
+    display: grid;
+    height: 18.12688821752266%;
+    grid-template-columns: 25% 50% 25%;
+    transition: 1s ease-in-out;
+    z-index: 1;
+}   
+#navbar div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+#navbar div p{
+    color: white;
+    font-family: Actor;
+    font-size: 30px;
+    height: 50px;
+    margin: 0px;
+}
+#navbar_title{
+    font-size: 61px !important; 
+    font-family: "Okolaks" !important;
+    margin: 0px;
+    height: 120px !important;
+}
+#main{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 1s ease-in-out;
+}
+#main_title{
+    font-size: 120px; 
+    color: white;
+    font-family: "Actor";
+    margin: 0px;
+    text-align: center;
+}
+#main_subtitle{
+    font-size: 42px;
+    color: white;
+    font-family: "Actor";
+    margin: 0px;
+    position: relative;
+    bottom: 40px;
+}
+#discord_button{
+    font-family: "Okolaks";
+    background-color: transparent;
+    color: #634FE5;
+    width: 300px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    border: solid 2px white;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    bottom: 50px;
+}
+#discord_button:hover{
+    color: white;
+    background-color: #634FE5;
+    border-color: #634FE5;
+}
+#SL:hover{
+    color: red;
+}
+#INFO:hover{
+    color: #6AA1EC;
+}
+#DS:hover{
+    color:#634FE5;
+}
+#STAFF:hover{
+    color: #51926b;
+}

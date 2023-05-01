@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+  }
+#navbar{
+    width: 100%;
+    display: grid;
+    height: 18.12688821752266%;
+    grid-template-columns: 25% 50% 25%;
+    transition: 1s ease-in-out;
+    z-index: 1;
+}   
+#navbar div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+#navbar div p{
+    color: white;
+    font-family: Actor;
+    font-size: 30px;
+    height: 50px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+#navbar_title{
+    font-size: 61px !important; 
+    font-family: "Okolaks" !important;
+    margin: 0px;
+    height: 120px !important;
+}
+#SL:hover{
+    color:red !important;
+}
+#INFO:hover{
+    color: #6AA1EC !important;
+}
+#DS:hover{
+    color: #634FE5 !important;
+}
+#STAFF:hover{
+    color: #51926b !important;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#monsters{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url("img/monsters.jpg");
+    background-clip: border-box;
+}
+.classes_in{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#humans{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-repeat: no-repeat;
+    background-image: url("img/humans.png");
+    background-clip: border-box;
+}
+button{
+    z-index: 1;
+    font-family: "Okolaks";
+    background-color: transparent;
+    color: red;
+    width: 300px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    border: solid 2px white;
+    transition: 0.2s ease-in-out;
+}
+.human_button:hover{
+    color: white;
+    background-color: #4A6FB6;
+    border-color: #4A6FB6;
+}
+.human_button{
+    z-index: 1;
+    font-family: "Okolaks";
+    background-color: transparent;
+    color: #4A6FB6;
+    width: 300px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    border: solid 2px white;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    color: white;
+    background-color:red;
+    border-color: red;
+}
+video{
+    object-fit: fill;
+    z-index: -1;
+    position: absolute;
+    transition: 1s ease-in-out;
+}
+p.classes{
+    width: 100%;
+    height: fit-content;
+    margin: 0px;
+    text-align: center;
+}
+.title{
+    width: 100%;
+    font-size: 58px; 
+    color: white;
+    font-family: "Okolaks";
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+.subtitle{
+    width: 100%;
+    font-size: 32px;
+    color: white;
+    font-family: "Actor";
+    margin: 0px;
+    position: relative;
+    bottom: 40px;
+}
+#zones{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    background-image: url(img/zones.png);
+    display: flex;
+    align-items: center;
+}
+.zones:hover{
+    color: white;
+    background-color: #ff6448;
+    border-color: #ff6448;
+}
+.zones{
+    z-index: 1;
+    font-family: "Okolaks";
+    background-color: transparent;
+    color: #ff6448;
+    width: 300px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    border: solid 2px white;
+    transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,1 @@
+document.getElementById("logo").href ="../index.php"

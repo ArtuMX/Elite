@@ -1,0 +1,192 @@
+body{
+    background-color: #171110;
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+  }
+#navbar{
+    width: 100%;
+    display: grid;
+    height: 18.12688821752266%;
+    grid-template-columns: 25% 50% 25%;
+    transition: 1s ease-in-out;
+    z-index: 1;
+}   
+#navbar div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+#navbar div p{
+    color: white;
+    font-family: Actor;
+    font-size: 30px;
+    height: 50px;
+    margin: 0px;
+}
+#slider{
+    height: 85VH;
+    width: 10000px;
+    position: absolute;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+#navbar_title{
+    font-size: 61px !important; 
+    font-family: "Okolaks" !important;
+    margin: 0px;
+    height: 120px !important;
+}
+#SL:hover{
+    color:red !important;
+}
+#INFO:hover{
+    color: #6AA1EC !important;
+}
+#DS:hover{
+    color: #634FE5 !important;
+}
+#STAFF:hover{
+    color: #51926b !important;
+}
+.slide{
+    transition: 0.4s ease-in-out;
+    width: 100vw;
+    height: fit-content;
+    position: relative;
+    display: flex;
+}
+#main{
+    height: fit-content;
+    width: 1455px;
+    margin: auto;
+    margin-top: 50px;
+}
+img{
+    height: 600px;
+}
+.title{
+    width: 100%;
+    font-size: 58px; 
+    color: white;
+    font-family: "Okolaks";
+    margin: 0px;
+}
+.subtitle{
+    width: 100%;
+    font-size: 32px;
+    color: white;
+    font-family: "Actor";
+    margin: 0px;
+}
+.main_description{
+    height: fit-content;
+    width: 65%;
+    float: left;
+}
+.description{
+    font-size: 32px;
+    line-height: 1.5;
+    color: white;
+    font-family: "Actor";
+    margin: 0px;
+    float: left;
+    margin-top: 40px;
+}
+.dclass{
+    color: #ff8e00 !important;
+}
+.dclass_des{
+    background-color: #ff8e00;
+}
+.scientist{
+    color: #ffff7c !important;
+}
+.scientist_des{
+    background-color: #ffff7c;
+}
+.MTF{
+    color: #0096ff !important;
+}
+.MTF_des{
+    background-color: #0096ff;
+}
+.Chaos{
+    color: #008f1e !important;
+}
+.Chaos_des{
+    background-color: #008f1e;
+}
+.Guard{
+    color: #5b6370 !important;
+}
+#navigation{
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    float: right;
+    align-self: start;
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    border: solid white 2px;
+}
+.active{
+    background-color: white;
+    width: 25px;
+    height: 25px;   
+}
+white {color: white; }
+black {color: black; }
+.scp{
+    color: #c50000;
+}
+red {color: #c50000; cursor:pointer;}
+green {color: green; }
+pink {color: pink;}
+
+classD {color: #ff8e00; cursor:pointer;}
+chaosInsurgency {color: #008f1e; cursor:pointer;}
+mtf {color: #0096ff; cursor:pointer;}
+ntfPrivate {color: #6fc3ff; cursor:pointer;}
+ntfSergeant {color: #0096ff; cursor:pointer;}
+ntfCaptain {color: #003dca; cursor:pointer;}
+scientist {color: #ffff7c; cursor:pointer;}
+guard {color: #5b6370; cursor:pointer;}
+
+lcz {color: #fAff86;}
+ez {color: #ff6448;}
+.ability{
+    font-size: 32px; 
+    font-family: "Okolaks" !important;
+    margin: 0px;
+    color: #9c9c9c;
+}
+.abilities{
+    font-size: 32px;
+    line-height: 1.5;
+    width: 140%;
+    color: white;
+    font-family: "Actor";
+    margin: 0px;
+    float: left;
+    margin-top: 40px;
+}
