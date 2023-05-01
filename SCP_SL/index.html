@@ -9,7 +9,29 @@
     <link rel="stylesheet" href="Scp_sl.css">
 </head>
 <body>
-    <?php include "../prefabs/navbar.php"; ?>
+    <nav id="navbar" style="opacity: 1; position:static;">
+        <div>
+            <p>
+                <a href="SCP_SL/" id="SL" style="color:red;">SCP:SL</a>
+            </p>
+            <p>
+            <a href="#"id="INFO">INFORMAZIONI</a>
+            </p>
+        </div>
+        <div>
+            <p id="navbar_title">
+                <a href="../index.html" id="logo"><span style="color:#51926b;">ELITE</span>  ITALIAN <span style="color:#b02f41;">SERVER</span></a>
+            </p>
+        </div>
+        <div>
+        <p>
+                <a href="#" id="DS">DISCORD</a>
+            </p>
+            <p>
+            <a href="#" id="STAFF">STAFF</a>
+            </p>
+        </div>
+    </nav>
 <div id="main" onmouseenter="navbar_disappear()">
     <div id="monsters" >
         <div class="classes_in">
@@ -17,7 +39,7 @@
         <span class="title">Gli <span style="color: red; position:relative; right:15px">SCP</span></span><br>
         <span class="subtitle">Temibili mostri con solo un obbiettivo: uccidere.</span>
         <br>
-           <a href="classes/monsters.php"><button>Scopri di più!</button></a>
+           <a href="classes/monsters.html"><button>Scopri di più!</button></a>
         </p>
         </div>  
     </div>
@@ -27,7 +49,7 @@
         <span class="title">Gli <span style="color: #4A6FB6; position:relative; right:15px">Umani</span></span><br>
         <span class="subtitle">Umani che cercano di fuggire o terminare gli SCP</span>
         <br>
-           <a href="classes/humans.php"><button class="human_button">Scopri di più!</button></a>
+           <a href="classes/humans.html"><button class="human_button">Scopri di più!</button></a>
         </p>
         </div>  
     </div>
@@ -37,7 +59,7 @@
     <p class="classes">
         <span class="title">Le <span style="color: #ff6448; position:relative; right:15px"> Zone di contenimento</span></span> <br>
         <span class="subtitle">Zone piene di corridoi, ascensori e pericoli. Pieni di oggetti utili e di grandi minacce</span> <br>
-        <a href="classes/zones.php"><button class="zones">Scopri di più!</button></a>
+        <a href="classes/zones.html"><button class="zones">Scopri di più!</button></a>
     </p>
 </div>
 <script src="script.js"></script>

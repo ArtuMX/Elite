@@ -8,7 +8,29 @@
     <link rel="stylesheet" href="styles/monsters.css">
 </head>
 <body>
-<?php include "../../prefabs/navbar.php"; ?> 
+    <nav id="navbar" style="opacity: 1; position:static;">
+        <div>
+            <p>
+                <a href="SCP_SL/" id="SL" style="color:red;">SCP:SL</a>
+            </p>
+            <p>
+            <a href="#"id="INFO">INFORMAZIONI</a>
+            </p>
+        </div>
+        <div>
+            <p id="navbar_title">
+                <a href="../../index.html" id="logo"><span style="color:#51926b;">ELITE</span>  ITALIAN <span style="color:#b02f41;">SERVER</span></a>
+            </p>
+        </div>
+        <div>
+        <p>
+                <a href="#" id="DS">DISCORD</a>
+            </p>
+            <p>
+            <a href="#" id="STAFF">STAFF</a>
+            </p>
+        </div>
+    </nav>
 <div id="slider">
     <div class="slide" style="left: 0vw; width: 0px;margin-left: 60px;">
         <div id="main">
@@ -65,16 +87,12 @@
         </div>
     </div>
     <div id="navigation">
-    <?php 
-    for($i = 0; $i < 5;$i++ ) {
-        if($i == 0){
-            echo "<div class='ball active' onclick='index = ".$i.";clicked();change_slide()'></div>";
-        }else{
-            echo "<div class='ball' onclick='index = ".$i.";clicked();change_slide()'></div>";
-        }
-    }
-    ?>
-</div>
+    <div class='ball active' onclick='index = 0;clicked();change_slide()'></div>
+    <div class='ball' onclick='index = 1;clicked();change_slide()'></div>
+    <div class='ball' onclick='index = 2;clicked();change_slide()'></div>
+    <div class='ball' onclick='index = 3;clicked();change_slide()'></div>
+    <div class='ball' onclick='index = 4;clicked();change_slide()'></div>
+    </div>
     </div>
     </div>
 <script src="../script_monsters.js"></script>
